@@ -203,7 +203,8 @@ function getInputHtml(currentColumnIndex, settings, oldValue) {
                         showOn: "button",
                         buttonImage: icon,
                         buttonImageOnly: true,
-                        buttonText: "Select date"
+                        buttonText: "Select date",
+			defaultDate: inputSetting.options.defaultValue    
                     });
 	        },100);
 	        break;
