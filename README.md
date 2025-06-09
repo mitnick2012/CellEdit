@@ -72,7 +72,8 @@ Property | Type | Default | Example | Details
                 "column": 2,
                 "type": "datepicker", // requires jQuery UI: http://http://jqueryui.com/download/
                 "options": {
-                    "icon": "http://jqueryui.com/resources/demos/datepicker/images/calendar.gif" // Optional
+                    "icon": "http://jqueryui.com/resources/demos/datepicker/images/calendar.gif", // Optional
+                    "defaultValue": new Date(), // Optional Set Default Value 
                 }
             }
         ]
